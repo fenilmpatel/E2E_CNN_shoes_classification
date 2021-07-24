@@ -1,0 +1,40 @@
+{% extends "layout01.html" %}
+{% block temp %}
+
+
+
+    
+
+
+            <h4>Image Classifier</h4>
+
+            <div>
+                <form id="upload-file" method="POST" enctype="multipart/form-data" action="{{url_for('upload')}}">
+                    <label for="imageUpload" class="upload-label">
+                        <input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg">
+                        
+                    </label>
+                    <br>
+                    <div>
+                        <button type="submit" class="btn btn-outline-success btn-lg btn-block" id="btn-predict">Predict</button>
+                    </div>
+                   <br>
+                    
+                    
+
+                </form>
+                
+            
+            
+             
+            
+ 
+
+        
+    </div>
+   
+
+    <br>
+   <br>
+   
+{% endblock temp %}
