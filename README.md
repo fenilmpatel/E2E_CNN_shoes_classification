@@ -1,1 +1,0 @@
-# E2E_CNN_shoes_classification
